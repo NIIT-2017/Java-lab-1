@@ -10,16 +10,7 @@ public class Lab1_6_1 {
         c.SetFerence(Fer_new);
         double R_new = c.GetRadius();
 
-        /*
-        c.SetFerence(25);
-        double rad = c.GetRadius();
-        double area = c.GetArea();
-        double fer = c.GetFerence();
-
-        System.out.println("Radius = "+rad);
-        System.out.println("Area = "+area);
-        System.out.println("Ference = "+fer);
-        */
+        
         System.out.println(R_new - R_Eath);
 
     }

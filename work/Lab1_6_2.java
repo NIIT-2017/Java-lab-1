@@ -17,8 +17,11 @@ public class Lab1_6_2 {
 
         //System.out.println("Стоимость бетона = "+(S_n - S_swim)*C_bet+" рублей");
         //System.out.println("Стоимость ограды = "+F_d*C_ogr+" рублей");
-        System.out.println("Cost_of_concrete = "+(S_n - S_swim)*C_bet+"RUB");
-        System.out.println("Cost_of_fence = "+F_d*C_ogr+"RUB");
+        //System.out.println("Cost_of_concrete = "+(S_n - S_swim)*C_bet+"RUB");
+        //System.out.println("Cost_of_fence = "+F_d*C_ogr+"RUB");
+	System.out.format("%.2f",(S_n - S_swim)*C_bet);
+	System.out.println();
+	System.out.format("%.2f",F_d*C_ogr);
 
 
     }
