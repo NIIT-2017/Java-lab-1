@@ -7,23 +7,23 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class CollatzMainTest {
-
+public class ReduceMainTest {
     private final ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 
     @Before
-    public void setup(){
+    public void setup() {
         System.setOut((new PrintStream(outStream)));
     }
 
     @After
-    public void clean(){
+    public void clean() {
         System.setOut(null);
     }
 
     @Test
     public void main() {
-        Collatz.main(new String[] {""});
-        assertEquals("Число имеющее наибольшую длинну последовательности Коллатца: 837799, её длинна систавляет: 524\n", outStream.toString());
+        Reduce.main(new String[]{"1,2,4,5,6,7,18,19,20,21"});
+        assertEquals("1,2,4-7,18-21.\n", outStream.toString());
     }
+
 }

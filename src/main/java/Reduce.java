@@ -1,40 +1,64 @@
 import java.util.ArrayList;
 
-public class Reduce {
-    public static String reduce(String strInput) {
+ public class Reduce {
+
+    //Метод преобразует строку содержащую числа в ArrayList
+    public static ArrayList strToArrInteger(String strInput) {
         ArrayList<Integer> arrInputNumber = new ArrayList<Integer>();
         String[] arrStrInput = strInput.split(",");
-        String strOut = new String();
         for (String strBuf : arrStrInput) {
             arrInputNumber.add(Integer.valueOf(strBuf));
         }
-        for (int i = 0; i < arrInputNumber.size(); i++) {
-            strOut += arrInputNumber.get(i).toString() + ",";
-
-            if (((i + 2 != arrInputNumber.size()) && arrInputNumber.get(i) == (arrInputNumber.get(i+1) + 1)) && ((arrInputNumber.get(i+1) + 1) == arrInputNumber.get(i+2) + 2)) {
-                strOut += "-";
-                for (int j = i + 1; j + 1 < arrInputNumber.size() && arrInputNumber.get(j) == arrInputNumber.get(j + 1) + 1; i++, j++) {}
-                strOut += arrInputNumber.get(i).toString() + ",";
-                i++;
-            }
-
-        }
-        strOut += ".";
-        return strOut;
-
+        return arrInputNumber;
     }
 
+    //Метод возращает индекс последнего элемента списка алгебраической последовательности
+    private static int counter(ArrayList<Integer> arrayListInput, int indexStart){
+        int indexEnd = 0;
+        int sizeArrayListInput = arrayListInput.size();
+        for(indexEnd = indexStart + 1; indexEnd < sizeArrayListInput; indexEnd++){
+            if(arrayListInput.get(indexEnd - 1) != arrayListInput.get(indexEnd) - 1){
+                break;
+            }
+        }
+        return indexEnd - 1;
+    }
 
+    public static String reduce(ArrayList<Integer> arrayListInputInteger) {
+        String strOut = new String();
+        for (int i = 0; i < arrayListInputInteger.size(); i++) {
+            strOut += arrayListInputInteger.get(i).toString();
+            if (i + 2 < arrayListInputInteger.size()) {
+                if ((arrayListInputInteger.get(i) == (arrayListInputInteger.get(i + 1) - 1)) && ((arrayListInputInteger.get(i + 1) - 1) == arrayListInputInteger.get(i + 2) - 2)) {
+                    strOut += "-";
+                    i = counter(arrayListInputInteger, i);
+                    if(i + 1 < arrayListInputInteger.size()) {
+                        strOut += arrayListInputInteger.get(i).toString() + ",";
+                    }else{
+                        strOut += arrayListInputInteger.get(i).toString() + ".";
+                    }
+                }else{
+                    strOut += ",";
+                }
 
+            }else if (i + 1 == arrayListInputInteger.size()){
+                strOut += ".";
+            }
+            else{
+                strOut += ",";
+            }
+        }
+        return strOut;
+    }
 
-
-    public static void main(String[] args){
-        if(args.length < 1){
+    public static void main(String[] args) {
+        if (args.length < 1) {
             System.out.println("Строка не передана!!!");
             return;
         }
-
-        String strOutput = reduce(args[0]);
-        System.out.println(strOutput);
+        ArrayList arrInputInteger = strToArrInteger(args[0]);
+        String strOutput = reduce(arrInputInteger);
+        System.out.print(strOutput + "\n");
     }
+
 }

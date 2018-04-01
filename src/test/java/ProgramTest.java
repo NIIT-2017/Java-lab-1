@@ -5,25 +5,26 @@ import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class CollatzMainTest {
+public class ProgramTest {
 
     private final ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 
     @Before
-    public void setup(){
+    public void setup() {
         System.setOut((new PrintStream(outStream)));
     }
 
     @After
-    public void clean(){
+    public void clean() {
         System.setOut(null);
     }
 
     @Test
     public void main() {
-        Collatz.main(new String[] {""});
-        assertEquals("Число имеющее наибольшую длинну последовательности Коллатца: 837799, её длинна систавляет: 524\n", outStream.toString());
+        Program.main(new String[]{"3.1", "3"});
+        assertEquals("Sqrt of 3.1 = 1.7607986949006773\n", outStream.toString());
     }
+
 }
