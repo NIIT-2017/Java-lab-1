@@ -25,8 +25,8 @@ public class PoolTest {
     @Test
     public void main() throws Exception {
         Pool.main(new String[]{});
-        assertEquals("21991,15 - цена дорожки\n" +
-                              "50265,48 - цена ограды\n",outputStream.toString());
+        assertEquals("21991.15 - цена дорожки\n" +
+                              "50265.48 - цена ограды\n",outputStream.toString());
     }
 
 }
