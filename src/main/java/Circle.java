@@ -17,7 +17,7 @@ public class Circle {
 
     public void setArea(double area) {
         this.Area = area;
-        this.Radius = Math.sqrt(this.Area)/Math.PI;
+        this.Radius = Math.sqrt(this.Area/Math.PI);
         this.Ference = 2 * Math.PI * this.Radius;
     }
     public double getRadius(){
