@@ -9,10 +9,12 @@ class Sqrt {
     }
 
     double average(double x, double y) {
+
         return (x + y) / 2.0;
     }
 
     boolean good(double guess, double x) {
+
         return Math.abs(guess * guess - x) < delta;
     }
 
