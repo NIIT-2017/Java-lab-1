@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a0e71f8-5cc8-4a31-a088-10f4993670c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reduce.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,20 +46,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaLab1.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaLab1.iml">
+      <file leaf-file-name="MainCircle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCircle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainCircle.java">
+      <file leaf-file-name="MainCircleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainCircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NativeMethodAccessorImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunAfters.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="46" column="78" lean-forward="true" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#2695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReduceMainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ReduceMainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reduce.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -98,9 +157,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ProgramTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SqrtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sqrt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainCircle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
         <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainCircle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainCircleTest.java" />
       </list>
     </option>
   </component>
@@ -120,7 +180,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="656" />
@@ -209,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainCircle">
+  <component name="RunManager" selected="JUnit.All in Java-lab-1">
     <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainCircle" />
       <module name="Java-lab-1" />
@@ -252,14 +312,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CircleTest.setFerenceAndGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainCircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-lab-1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="setFerenceAndGet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MainCircleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -269,13 +329,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CircleTest.setRadiusAndGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainCircleTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-lab-1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="setRadiusAndGet" />
+      <option name="MAIN_CLASS_NAME" value="MainCircleTest" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,19 +395,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CircleTest.setRadiusAndGet" />
-      <item itemvalue="JUnit.CircleTest.setFerenceAndGet" />
       <item itemvalue="JUnit.CircleTest.setAreaAndGet" />
       <item itemvalue="JUnit.All in Java-lab-1" />
       <item itemvalue="Application.MainCircle" />
+      <item itemvalue="JUnit.MainCircleTest" />
+      <item itemvalue="JUnit.MainCircleTest.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainCircle" />
         <item itemvalue="JUnit.All in Java-lab-1" />
+        <item itemvalue="JUnit.MainCircleTest" />
+        <item itemvalue="JUnit.MainCircleTest.main" />
+        <item itemvalue="Application.MainCircle" />
         <item itemvalue="JUnit.CircleTest.setAreaAndGet" />
-        <item itemvalue="JUnit.CircleTest.setFerenceAndGet" />
-        <item itemvalue="JUnit.CircleTest.setRadiusAndGet" />
       </list>
     </recent_temporary>
   </component>
@@ -365,34 +425,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircleTest_setRadiusAndGet - 2018.04.02 at 09h 42m 42s.xml">
-      <configuration name="CircleTest.setRadiusAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 31m 08s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setFerenceAndGet - 2018.04.02 at 09h 45m 47s.xml">
-      <configuration name="CircleTest.setFerenceAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 32m 15s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setFerenceAndGet - 2018.04.02 at 09h 49m 00s.xml">
-      <configuration name="CircleTest.setFerenceAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 33m 35s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 09h 55m 21s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 33m 59s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 09h 56m 01s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 35m 26s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 09h 56m 11s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 35m 31s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 09h 59m 19s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 36m 06s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 09h 59m 39s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest_main - 2018.04.02 at 10h 36m 15s.xml">
+      <configuration name="MainCircleTest.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CircleTest_setAreaAndGet - 2018.04.02 at 10h 02m 46s.xml">
-      <configuration name="CircleTest.setAreaAndGet" configurationId="JUnit" />
+    <history-entry file="MainCircleTest - 2018.04.02 at 10h 36m 19s.xml">
+      <configuration name="MainCircleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Java-lab-1 - 2018.04.02 at 10h 03m 44s.xml">
+    <history-entry file="All_in_Java-lab-1 - 2018.04.02 at 10h 36m 36s.xml">
       <configuration name="All in Java-lab-1" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -419,7 +479,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.48990434" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.40860215" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -429,43 +489,13 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32943678" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.3440095" visible="true" weight="0.14791666" />
-      <window_info id="Structure" order="7" sideWeight="0.6559905" side_tool="true" visible="true" weight="0.14791666" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3103082" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.48990434" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32943678" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296875" />
-      <window_info id="Learn" order="2" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -567,6 +597,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Collatz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -777,13 +803,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ReduceMainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,20 +858,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReduceMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="46" column="78" lean-forward="true" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#2695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainCircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
