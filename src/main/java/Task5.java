@@ -29,7 +29,7 @@ class NumToSym{
     private void printArrDigits()
     {
         for(int i=0;i<size;i++)
-            System.out.println(arrFinishStr[i]);
+            System.out.print(arrFinishStr[i]+"\n");
     }
 
     private void decompositionNumber(int num){

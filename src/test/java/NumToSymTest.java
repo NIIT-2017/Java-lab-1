@@ -22,12 +22,12 @@ public class NumToSymTest {
             NumToSym nts=new NumToSym(89);
             nts.transform();
 
-            assertEquals("*******  *******  \r\n" +
-                                  "*     *  *     *  \r\n" +
-                                  "*     *  *     *  \r\n" +
-                                  "*******  *******  \r\n" +
-                                  "*     *        *  \r\n" +
-                                  "*     *        *  \r\n" +
-                                  "*******  *******  \r\n",outStream.toString());
+            assertEquals("*******  *******  \n" +
+                                  "*     *  *     *  \n" +
+                                  "*     *  *     *  \n" +
+                                  "*******  *******  \n" +
+                                  "*     *        *  \n" +
+                                  "*     *        *  \n" +
+                                  "*******  *******  \n",outStream.toString());
     }
 }
