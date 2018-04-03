@@ -18,7 +18,7 @@ public class Collatz {
     public static HashMap maxLenCollatx(long min, long max) {
         long maxLenKollatz = 0;
         long maxNamberKollatz = 0;
-        long lenKollatz = 0;
+        long lenKollatz;
         for (long i = min; i < max; i++) {
             lenKollatz = lenCollatz(i);
             if (lenKollatz > maxLenKollatz) {

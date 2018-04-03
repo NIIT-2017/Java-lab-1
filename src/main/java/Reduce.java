@@ -3,7 +3,7 @@ import java.util.ArrayList;
  public class Reduce {
 
     //Метод преобразует строку содержащую числа в ArrayList
-    public static ArrayList strToArrInteger(String strInput) {
+    public static ArrayList<Integer> strToArrInteger(String strInput) {
         ArrayList<Integer> arrInputNumber = new ArrayList<Integer>();
         String[] arrStrInput = strInput.split(",");
         for (String strBuf : arrStrInput) {
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
     //Метод возращает индекс последнего элемента списка алгебраической последовательности
     private static int counter(ArrayList<Integer> arrayListInput, int indexStart){
-        int indexEnd = 0;
+        int indexEnd;
         int sizeArrayListInput = arrayListInput.size();
         for(indexEnd = indexStart + 1; indexEnd < sizeArrayListInput; indexEnd++){
             if(arrayListInput.get(indexEnd - 1) != arrayListInput.get(indexEnd) - 1){
@@ -56,7 +56,7 @@ import java.util.ArrayList;
             System.out.println("Строка не передана!!!");
             return;
         }
-        ArrayList arrInputInteger = strToArrInteger(args[0]);
+        ArrayList<Integer> arrInputInteger = strToArrInteger(args[0]);
         String strOutput = reduce(arrInputInteger);
         System.out.print(strOutput + "\n");
     }

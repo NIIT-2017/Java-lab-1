@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Expand {
 
-    public static ArrayList expand(String stroka){
+    public static ArrayList<Integer> expand(String stroka){
         String[] arrString = stroka.split("-");
         ArrayList<Integer> arrNaber = new ArrayList<Integer>();
         for (int i = 0; i < arrString.length; i++) {

@@ -25,6 +25,6 @@ public class ProgramTest {
     public void main() {
         Program.main(new String[]{"3.1", "3"});
         assertEquals("Sqrt of 3.1 = 1.7607986949006773\n", outStream.toString());
+        assertNotEquals("Sqrt of 3.1 = 1.7617986949006773\n", outStream.toString());
     }
-
 }
