@@ -24,9 +24,9 @@ public class MainCircleTest {
     @Test
     public void main(){
         MainCircle.main(new String[]{""});
-        String str = "The variation of the radius made up: 0.15915494319051504 m\r\n" +
+        String str = "The variation of the radius made up: 0.15915494319051504 m\n" +
                 "The cost of materials necessary for the construction of the pool fence and walkway is: 87964.5943005142 r\n" +
-                "The cost of materials required for the construction of a concrete path around the pool is: 21991.14857512855 r\r\n";
+                "The cost of materials required for the construction of a concrete path around the pool is: 21991.14857512855 r\n";
         assertEquals(str, outStream.toString());
     }
 }

@@ -100,7 +100,7 @@ public class PrintNamber {
             strOutput = arrStrSumm(strOutput, biblChar[arrIntInput[i]]);
         }
         for (int i = 0; i < strOutput.length; i++) {
-            System.out.println(strOutput[i]);
+            System.out.print(strOutput[i] + "\n");
         }
     }
 }

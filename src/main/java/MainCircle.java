@@ -6,7 +6,7 @@ public class MainCircle{
         planetEarth.setRadius(radiusEarth * 1000);  //Задаём радиус планеты Земля в м
         Circle objNew = new Circle();   //Создаём новый объект класса Circle
         objNew.setFerence(planetEarth.getFerence() + 1);   //Задаё длинну окружности нового объекта на метр больше чем у планеты Земля
-        System.out.println("The variation of the radius made up: " + (Math.abs(planetEarth.getRadius() - objNew.getRadius())) + " m");
+        System.out.print("The variation of the radius made up: " + (Math.abs(planetEarth.getRadius() - objNew.getRadius())) + " m\n");
         //Задача "Бассейн"
         final int priceBeton = 1000;  //Стоиместь одного квадратного метра бетоннного покрытия
         final int priceBarer = 2000;  //Стоимось погонного метра ограды
@@ -19,7 +19,7 @@ public class MainCircle{
         double area = Math.abs(road.getArea() - bas.getArea()); //Вычисляем площадь бетонной дорожки
         double barer = bas.getFerence() + road.getFerence(); //Вычисляем суммарную длинну ограждения бассейна и дорожки
 
-        System.out.println("The cost of materials necessary for the construction of the pool fence and walkway is: " + priceBarer * barer + " r\n" +
-                "The cost of materials required for the construction of a concrete path around the pool is: " + area * priceBeton + " r");
+        System.out.print("The cost of materials necessary for the construction of the pool fence and walkway is: " + priceBarer * barer + " r\n" +
+                "The cost of materials required for the construction of a concrete path around the pool is: " + area * priceBeton + " r\n");
     }
 }
