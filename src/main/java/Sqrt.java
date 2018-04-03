@@ -1,8 +1,9 @@
+import java.util.HashMap;
+
 class Sqrt {
     double delta;
     double arg;
 
-    //Конструктор объекта
     Sqrt(double arg, int numberOfDecimalPlaces) {
         this.arg = arg;
         this.delta = 1 / Math.pow(10, numberOfDecimalPlaces);
@@ -37,7 +38,7 @@ class Sqrt {
 class Program {
     public static void main(String[] args) {
         double val = Double.parseDouble(args[0]);
-        int numberOfDecimalPlaces = Integer.parseInt(args[1]);
+        int numberOfDecimalPlaces = Integer.parseInt(args[1]);  //Точность - количество знаков после запятой
 
         Sqrt sqrt = new Sqrt(val, numberOfDecimalPlaces);
         double result = sqrt.calc();

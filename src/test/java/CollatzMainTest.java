@@ -22,8 +22,9 @@ public class CollatzMainTest {
     }
 
     @Test
-    public void main() {
+    public void main(){
         Collatz.main(new String[] {""});
-        assertEquals("Число имеющее наибольшую длинну последовательности Коллатца: 837799, её длинна систавляет: 524\n", outStream.toString());
+        assertEquals("The number having the maximum length of the collatz sequence: 837799, its length is: 524\n", outStream.toString());
+
     }
 }

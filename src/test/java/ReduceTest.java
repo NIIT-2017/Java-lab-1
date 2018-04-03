@@ -8,7 +8,6 @@ public class ReduceTest {
 
     @Test
     public void strToArrInteger() {
-        //''1,2,4-7,18-21'' -> 1,2,4,5,6,7,18,19,20,21.
         ArrayList<Integer> inputArrList = new ArrayList<Integer>();
         inputArrList.add(new Integer(1));
         inputArrList.add(new Integer(2));

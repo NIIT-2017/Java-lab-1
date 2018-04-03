@@ -56,7 +56,7 @@ import java.util.ArrayList;
             System.out.println("Строка не передана!!!");
             return;
         }
-        ArrayList<Integer> arrInputInteger = strToArrInteger(args[0]);
+        ArrayList <Integer> arrInputInteger = strToArrInteger(args[0]);
         String strOutput = reduce(arrInputInteger);
         System.out.print(strOutput + "\n");
     }

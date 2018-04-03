@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
 
 import static org.junit.Assert.*;
 
@@ -22,9 +23,9 @@ public class ProgramTest {
     }
 
     @Test
-    public void main() {
+    public void main() throws UnsupportedEncodingException {
         Program.main(new String[]{"3.1", "3"});
-        assertEquals("Sqrt of 3.1 = 1.7607986949006773\n", outStream.toString());
-        assertNotEquals("Sqrt of 3.1 = 1.7617986949006773\n", outStream.toString());
+        assertEquals("Sqrt of 3.1 = 1.7607986949006773\n", outStream.toString("UTF-8"));
     }
+
 }

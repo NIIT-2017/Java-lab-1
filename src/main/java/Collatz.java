@@ -35,8 +35,7 @@ public class Collatz {
 
     public static void main(String[] args) {
         HashMap naberAndLen = maxLenCollatx(1, 1000000);
-        System.out.print("Число имеющее наибольшую длинну последовательности Коллатца: " + naberAndLen.get("namber") +
-                ", её длинна систавляет: " + naberAndLen.get("len") + "\n");
-
+        System.out.print("The number having the maximum length of the collatz sequence: " + naberAndLen.get("namber") +
+                ", its length is: " + naberAndLen.get("len") + "\n");
     }
 }

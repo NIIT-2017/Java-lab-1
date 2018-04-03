@@ -20,8 +20,6 @@ public class SqrtTest {
     public void good() {
         assertTrue(sqrt.good(2.11, 4.452));
         assertFalse(sqrt.good(2.11, 4.4531));
-        /*assertEquals(true, sqrt.good(2.11, 4.452));
-        assertEquals(false, sqrt.good(2.11, 4.4531));*/
     }
 
 
