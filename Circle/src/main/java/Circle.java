@@ -1,6 +1,6 @@
 /**
  * @author Pavel Belov
- * @link http://www.shtanyuk.tk/edu/nniit/java-new/labs/labs1.html
+ * http://www.shtanyuk.tk/edu/nniit/java-new/labs/labs1.html
  * Lab №1 Task 6
  * "Earth and rope" and "Waterpool" puzzles
  */
