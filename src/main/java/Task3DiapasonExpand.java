@@ -5,7 +5,8 @@ public class Task3DiapasonExpand {
         String charDiapason = "-";
 
         Expand object = new Expand(inputString, charSeparator, charDiapason);
-        System.out.println("Input string: " + object.startString);
+        //System.out.println("Input string: " + object.startString); // println генерирует CRLF, поэтому заменён на print + \n
+        System.out.print("Input string: " + object.startString + "\n");
         System.out.print("Output string: " + object.exchangeExpand());
     }
 }

@@ -24,12 +24,12 @@ public class Task5PrintBigNumberMainTest {
     @Test
     public void main() {
         Task5PrintBigNumber.main(new String[]{"41072819"});
-        assertEquals(" *   *    *     ***  *******  ***    ***     *     ***  \r\n" +
-                              " *   *  * *    *   *      *  *   *  *   *  * *    *   * \r\n" +
-                              " *   *    *   *     *    *       *  *   *    *    *   * \r\n" +
-                              " *****    *   *     *  ***      *    ***     *     **** \r\n" +
-                              "     *    *   *     *  *       *    *   *    *        * \r\n" +
-                              "     *    *    *   *   *      *     *   *    *    *   * \r\n" +
-                              "     *   ***    ***    *     *****   ***    ***    ***  \r\n",outStream.toString());
+        assertEquals(" *   *    *     ***  *******  ***    ***     *     ***  \n" +
+                              " *   *  * *    *   *      *  *   *  *   *  * *    *   * \n" +
+                              " *   *    *   *     *    *       *  *   *    *    *   * \n" +
+                              " *****    *   *     *  ***      *    ***     *     **** \n" +
+                              "     *    *   *     *  *       *    *   *    *        * \n" +
+                              "     *    *    *   *   *      *     *   *    *    *   * \n" +
+                              "     *   ***    ***    *     *****   ***    ***    ***  \n",outStream.toString());
     }
 }

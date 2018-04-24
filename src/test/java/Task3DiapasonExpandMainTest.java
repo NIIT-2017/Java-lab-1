@@ -24,7 +24,7 @@ public class Task3DiapasonExpandMainTest {
     @Test
     public void main() {
         Task3DiapasonExpand.main(new String[]{""});
-        assertEquals("Input string: 1,2,4-7,18-21\r\nOutput string: 1,2,4,5,6,7,18,19,20,21", outStream.toString());
+        assertEquals("Input string: 1,2,4-7,18-21\nOutput string: 1,2,4,5,6,7,18,19,20,21", outStream.toString());
     }
 
 

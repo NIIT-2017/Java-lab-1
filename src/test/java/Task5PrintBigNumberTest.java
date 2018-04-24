@@ -66,12 +66,12 @@ public class Task5PrintBigNumberTest {
                                      "  ***    ***    *    "};
 
         testObject.getBigNumber(testOutputString);
-        assertEquals("  ***    ***  *******\r\n" +
-                              " *   *  *   *      * \r\n" +
-                              " *   *  *   *     *  \r\n" +
-                              "  ****   ***    ***  \r\n" +
-                              "     *  *   *   *    \r\n" +
-                              " *   *  *   *   *    \r\n" +
-                              "  ***    ***    *    \r\n", outStream.toString());
+        assertEquals("  ***    ***  *******\n" +
+                              " *   *  *   *      * \n" +
+                              " *   *  *   *     *  \n" +
+                              "  ****   ***    ***  \n" +
+                              "     *  *   *   *    \n" +
+                              " *   *  *   *   *    \n" +
+                              "  ***    ***    *    \n", outStream.toString());
     }
 }

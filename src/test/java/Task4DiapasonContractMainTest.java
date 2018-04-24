@@ -24,6 +24,6 @@ public class Task4DiapasonContractMainTest {
     @Test
     public void main() {
         Task4DiapasonContract.main(new String[]{""});
-        assertEquals("Input string: 1,2,4,5,6,7,11,18,19,20,21,25,26\r\nOutput string: 1,2,4-7,11,18-21,25,26", outStream.toString());
+        assertEquals("Input string: 1,2,4,5,6,7,11,18,19,20,21,25,26\nOutput string: 1,2,4-7,11,18-21,25,26", outStream.toString());
     }
 }

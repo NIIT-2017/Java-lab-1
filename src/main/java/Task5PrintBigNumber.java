@@ -150,7 +150,8 @@ class BigNumber{
 
         for (String line:
              outputString) {
-            System.out.println(line);
+            //System.out.println(line); // println генерирует CRLF, поэтому заменён на print + \n
+            System.out.print(line + "\n");
         }
     }
 
