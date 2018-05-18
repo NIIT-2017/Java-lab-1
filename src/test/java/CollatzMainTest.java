@@ -22,9 +22,8 @@ public class CollatzMainTest {
         System.setOut(null);
     }
 
-
     @Test
-    public void main() throws Exception{
+    public void main(){
         Collatz.main(new String[] {""});
         assertEquals("The maximum length of sequence:324 The maximum number:35655\r\n",outStream.toString());
     }
