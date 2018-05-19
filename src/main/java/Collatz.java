@@ -21,12 +21,13 @@ public class Collatz {
         }
         System.out.println("The maximum length of sequence:" + maxLength + " The maximum number:" + maxNumber);
     }
-
+    
+    //counting the Collatz sequence
     public static long CollatzCalculation(long n) {
 
-        long currentLength = 1;         //current length of sequence
+        long currentLength = 1;			//current length of sequence
 
-        //counting the Collatz sequence
+        
         while (n != 1) {
             currentLength++;
             if (n % 2 == 0)
