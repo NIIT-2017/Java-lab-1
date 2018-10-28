@@ -6,8 +6,8 @@ public class ConvolutionNumber {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
+//        Scanner scan = new Scanner(System.in);
+        String s = args[0];
         String Result = res(s);
         System.out.print(Result);
     }

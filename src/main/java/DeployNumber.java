@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class DeployNumber {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
+//        Scanner scan = new Scanner(System.in);
+        String s = args[0];
         List<Integer> list=res(s);
         for (int l = 0; l<list.size();l++)
             System.out.print(list.get(l) + " ");
