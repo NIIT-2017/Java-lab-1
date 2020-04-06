@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         String range = args[0];
         System.out.println(range);

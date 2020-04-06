@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class task5Test {
+class Task5Test {
 
     @Test
     void makeLine() {
@@ -14,6 +14,6 @@ class task5Test {
                 "******   *   *     *   *      *     *   *   *       *  ",
                 "   *     *    *   *   *      *      *   *   *       *  ",
                 "   *    ***    ***    *      *****   ***   ***      *  "},
-                task5.makeLine("41072819"));
+                Task5.makeLine("41072819"));
     }
 }

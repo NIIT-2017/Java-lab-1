@@ -1,4 +1,4 @@
-public class task6 {
+public class Task6 {
     public static void main(String[] args)
     {
         double earthRadius = 6378.1; //kilometres
