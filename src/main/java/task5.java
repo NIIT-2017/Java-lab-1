@@ -32,6 +32,10 @@ public class task5 {
     }
 
     public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.print("Введите число");
+            System.exit(-1);
+        }
         for (int i = 0; i < 7; i++) {
             System.out.println(addLines(args[0], i));
             line.setLength(0);
