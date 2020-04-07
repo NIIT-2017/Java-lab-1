@@ -1,0 +1,15 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class MaxSequenceOfCollatzTest {
+
+    @Test
+    void collatz() {
+        assertEquals(525, MaxSequenceOfCollatz.collatz(837799));
+    }
+    @Test
+    void maxSequence() {
+        assertEquals(837799, MaxSequenceOfCollatz.MaxSequence());
+    }
+}
