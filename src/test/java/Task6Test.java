@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class Task6Test {
+public class Task6Test {
 
     @Test
     public void earthAndRope() {

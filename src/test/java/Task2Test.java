@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class Task2Test {
+public class Task2Test {
 
     @Test
     public void cutNumber() {

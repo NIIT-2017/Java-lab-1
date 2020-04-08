@@ -1,7 +1,7 @@
   
 import static org.junit.Assert.*;
 
-class Task1Test {
+public class Task1Test {
 
     @org.junit.Test
     public void seqCollatz() {

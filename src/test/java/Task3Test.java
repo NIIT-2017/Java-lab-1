@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class Task3Test {
+public class Task3Test {
 
     @Test
     public void openedRange() {

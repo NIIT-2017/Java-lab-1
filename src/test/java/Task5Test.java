@@ -2,7 +2,7 @@
 
 import static org.junit.Assert.*;
 
-class Task5Test {
+public class Task5Test {
 
     @Test
     public void makeLine() {

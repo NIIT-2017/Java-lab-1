@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class CircleTest {
+public class CircleTest {
 
     @Test
     public void setRadius() {

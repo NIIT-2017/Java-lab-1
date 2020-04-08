@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class Task4Test {
+public class Task4Test {
 
     @Test
     public void closedRange() {
