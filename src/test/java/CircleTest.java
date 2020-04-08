@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 class CircleTest {
 
     @Test
-    void setRadius() {
+    public void setRadius() {
         Circle circle = new Circle();
         circle.setRadius(10.00);
         Double compareArea = circle.getArea();
@@ -18,7 +18,7 @@ class CircleTest {
     }
 
     @Test
-    void setFerence() {
+    public void setFerence() {
         Circle circle = new Circle();
         circle.setFerence(Math.PI*20.00);
         Double compareArea = circle.getArea();
@@ -30,7 +30,7 @@ class CircleTest {
     }
 
     @Test
-    void setArea() {
+    public void setArea() {
         Circle circle = new Circle();
         circle.setArea(Math.PI*100.00);
         Double compareRadius = circle.getRadius();

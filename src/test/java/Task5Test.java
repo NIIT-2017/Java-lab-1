@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 class Task5Test {
 
     @Test
-    void makeLine() {
+    public void makeLine() {
         assertArrayEquals(new String[]{
                 "   *     *     ***    *****   ***    ***    *    ****  ",
                 "  **    **    *   *       *  *   *  *   *  **   *   *  ",
