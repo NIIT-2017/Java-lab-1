@@ -1,5 +1,3 @@
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-
 import java.util.ArrayList;
 
 public class task3 {
