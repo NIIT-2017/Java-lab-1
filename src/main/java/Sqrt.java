@@ -8,15 +8,6 @@ public class Sqrt {
         this.delta = delta;
         this.arg = arg;
     }
-
-    /*public void setDelta(double delta) {
-        this.delta = delta;
-    }
-
-    public void setArg(double arg) {
-        this.arg = arg;
-    }*/
-
     double average(double x, double y) {
         return (x+y)/2.0;
     }
