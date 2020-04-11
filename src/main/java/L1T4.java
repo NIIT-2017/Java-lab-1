@@ -1,26 +1,66 @@
 public class L1T4
 {
-    public static void main(String[] args)
+    public static String zoom(String line)
     {
-        int[] numbers;
-        String input = "4,10,11,12,13,100,18,19,20,21";
-        String[] arr = input.split(",");
-        numbers = new int[arr.length];
-        for (int i = 0; i < arr.length; i++)
-            numbers[i] = Integer.parseInt(arr[i]);
-        for (int i = 0; i < numbers.length - 3; i++)//split?
+        StringBuilder sb = new StringBuilder();
+        int i=0, lnumb=0;
+        int[] numb = new int[line.length()];
+        while(i<line.length())
         {
-            System.out.print(numbers[i]);
-            if (numbers[i] == numbers[i + 1] - 1 && numbers[i + 1] == numbers[i + 2] - 1)
+            int pos = line.indexOf(',', i);
+            if(pos > 0)
             {
-                while (i < numbers.length-1 && numbers[i] == numbers[i + 1]-1)
-                    i++;
-                System.out.print("-" + numbers[i]);
-                if (i < numbers.length - 1)
-                    System.out.print(",");
+                String str=line.substring(i, pos);
+                numb[lnumb] = Integer.parseInt(str);
+                lnumb++;
+                i = pos+1;
             }
             else
-                System.out.print(",");
+                {
+                pos = line.indexOf('.', i);
+                if(pos == -1)
+                    pos = line.length();
+                String str=line.substring(i, pos);
+                numb[lnumb] = Integer.parseInt(str);
+                lnumb++;
+                i=pos+1;
+            }
         }
+        int j=0;
+        while(j<lnumb)
+        {
+            if(numb[j] == numb[j+1]-1)
+            {
+                int k = j;
+                while(numb[k] == numb[k+1]-1)
+                {
+                    k++;
+                }
+                if(k-j>1)
+                {
+                    sb.append(numb[j]+"-"+numb[k]+((k==lnumb-1)?"":","));
+                    j=k+1;
+                }
+                else
+                    {
+                    sb.append(numb[j]+ ((j==lnumb-1)?"":","));
+                    j++;
+                }
+            }
+            else
+                {
+                sb.append(numb[j]+((j==lnumb-1)?"":","));
+                j++;
+            }
+        }
+        String result = sb.toString();
+        return result;
+    }
+    public static void main(String[] args)
+    {
+        if(args.length == 0)
+            return;
+        String result = zoom(args[0]);
+        System.out.println(result);
     }
 }
