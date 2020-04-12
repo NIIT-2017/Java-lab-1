@@ -2,22 +2,22 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-class SqrtTest {
+public class SqrtTest {
     double delta = 0.0000001;
 
     @Test
-    void calc() {
+    public void calc() {
         Sqrt sqtr1 = new Sqrt(1,5);
-        assertEquals(2.3333333333333335, sqtr1.calc());
+        assertEquals(2.3333333333333335, sqtr1.calc(), delta);
     }
     @Test
-    void calc1() {
+    public void calc1() {
         Sqrt sqtr1 = new Sqrt(0.1, 16000);
-        assertEquals(126.49112992155585, sqtr1.calc());
+        assertEquals(126.49112992155585, sqtr1.calc(), delta);
     }
     @Test
-    void calc2() {
+    public void calc2() {
         Sqrt sqtr1 = new Sqrt(0.002, 121);
-        assertEquals(11.000000001611474, sqtr1.calc());
+        assertEquals(11.000000001611474, sqtr1.calc(), delta);
     }
 }

@@ -2,11 +2,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
- class CircleTest {
+ public class CircleTest {
      double delta = 0.000000001;
 
     @Test
-    void setRadius() {
+    public void setRadius() {
         Circle earthAndRope = new Circle();
         earthAndRope.setRadius(6378.1*1000);
         assertEquals(4.007478420772212E7, earthAndRope.getFerence(), delta);
@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
     }
 
     @Test
-    void setFerence() {
+    public void setFerence() {
         Circle swimmingPoolAndPath = new Circle();
         swimmingPoolAndPath.setFerence(18.84955592153876);
         assertEquals(3, swimmingPoolAndPath.getRadius(), delta);
@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
     }
 
     @Test
-    void setArea() {
+    public void setArea() {
         Circle swimmingPoolAndPath = new Circle();
         swimmingPoolAndPath.setArea(28.274333882308138);
         assertEquals(3, swimmingPoolAndPath.getRadius(), delta);
