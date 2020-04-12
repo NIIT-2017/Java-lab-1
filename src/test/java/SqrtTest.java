@@ -1,8 +1,9 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 class SqrtTest {
+    double delta = 0.0000001;
 
     @Test
     void calc() {
