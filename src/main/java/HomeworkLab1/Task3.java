@@ -3,7 +3,7 @@ package HomeworkLab1;
 import javafx.util.Builder;
 
 public class Task3 {
-    public static StringBuilder sequence(String str)
+    public static String sequence(String str)
     {   StringBuilder result=new StringBuilder();
         for(String range:  str.split(","))
         {
@@ -20,6 +20,7 @@ public class Task3 {
                 result.append(",");
             }
         }
-      return  result;
+        result.deleteCharAt(result.length()-1);
+      return  result.toString();
     }
 }

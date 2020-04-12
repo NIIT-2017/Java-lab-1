@@ -76,24 +76,22 @@ public class Task5 {
                     "*****"
             }
     };
-    public  static char[] print(String input)throws IOException
+    public  static String[] print(String input)throws IOException
     {
         final int  numberLength=7;
-        char []string=new char[(5+2)*input.length()];
-        for(int i=0;i<5;i++)
+        String[] levels=new String[5];
+        for(int i=0;i<input.length();i++)
         {
-
-            for(int j=0;j<input.length();j++)
+            for(int j=0;j<5;j++)
             {
-                for(int k=0;k<numberLength;k++)
-                {
-                    if(k<5)
-                        string[j*numberLength+k]=numbers[input.charAt(j)-'0'][i].charAt(k);
-                    else
-                        string[j*numberLength+k]=' ';
-                }
+                if(i==0)
+                    levels[j]=new String();
+                levels[j]+=numbers[(int)input.charAt(i)-'0'][j];
+                if(i!=input.length()-1)
+                    levels[j]+="  ";
             }
         }
-        return string;
+
+        return levels;
     }
 }

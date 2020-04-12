@@ -1,7 +1,7 @@
 package HomeworkLab1;
 
 public class Task4 {
-    public static StringBuilder convolve(String str)
+    public static String convolve(String str)
     {
         String []numbers=str.split(",");
         StringBuilder result=new StringBuilder();
@@ -28,6 +28,7 @@ public class Task4 {
                 result.append(",");
             }
         }
-        return result;
+        result.deleteCharAt(result.length()-1);
+        return result.toString();
     }
 }
