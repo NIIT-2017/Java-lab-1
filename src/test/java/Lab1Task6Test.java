@@ -1,8 +1,8 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 import java.text.DecimalFormat;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class Lab1Task6Test {
 
