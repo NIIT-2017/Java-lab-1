@@ -131,20 +131,30 @@ class StringToPicture {
             this.picture[6]=this.picture[6].concat(ca.getLine6());
         }
     }
-//the printer
-    void printPicture(){
-        for (String s:this.picture) {
-            System.out.println(s);
-        }
+//the getter
+    String[] getPicture(){
+        return picture;
     }
 }
 
 public class Lab1Task5 {
+    void printPicture (String[] picture){
+        for (String s:picture) {
+            System.out.println(s);
+        }
+    }
     public static void main(String[] args) {
         System.out.println("Input the number");
         Scanner in = new Scanner(System.in);
         String line = in.nextLine();
-        StringToPicture stp = new StringToPicture(line);
-        stp.printPicture();
+        if (line.length()==0){
+            System.out.println("The number hasn't printed");
+            System.exit(1);
+        }
+        else{
+            Lab1Task5 task5 = new Lab1Task5();
+            StringToPicture stp = new StringToPicture(line);
+            task5.printPicture(stp.getPicture());
+        }
     }
 }

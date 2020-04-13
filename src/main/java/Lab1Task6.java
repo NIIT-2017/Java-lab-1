@@ -37,7 +37,7 @@ class SwimmingPool {
     }
 }
 
-public class Lab1Task6 {
+public class  Lab1Task6 {
     public static void main(String[] args) {
 //task about the Knot around the Earth//
         DecimalFormat df1 = new DecimalFormat("#0.000");

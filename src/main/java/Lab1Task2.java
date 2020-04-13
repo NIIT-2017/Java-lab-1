@@ -29,12 +29,14 @@ class Sqrt
 }
 
 public class Lab1Task2 {
-    public static void main(String[] args)
-    {
+    double sqrt(String[] args){
         double val=Double.parseDouble(args[0]);
         double del=Double.parseDouble(args[1]);
         Sqrt sqrt=new Sqrt(val,del);
-        double result=sqrt.calc();
-        System.out.println("Sqrt of "+val+"="+result);
+        return sqrt.calc();
+    }
+    public static void main(String[] args){
+        Lab1Task2 task2 = new Lab1Task2();
+        System.out.println("Sqrt of "+args[0]+"="+task2.sqrt(args));
     }
 }
