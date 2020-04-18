@@ -1,11 +1,14 @@
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-class EditorTest {
+public class EditorTest {
 
     @Test
-    void expandStr() {
+    public void expandStr() {
         assertEquals("1,2,4,5,6,7", Editor.ExpandStr("1,2,4-7"));
         assertEquals("1,2,3,4,10,12,13,14,15,20", Editor.ExpandStr("1-4,10,12-15,20"));
         assertEquals("1,2,4,5,6,7,18,19,20,21", Editor.ExpandStr("1,2,4-7,18-21"));

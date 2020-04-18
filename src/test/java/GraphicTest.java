@@ -1,11 +1,14 @@
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-class GraphicTest {
+public class GraphicTest {
 
     @Test
-    void printNumbers() {
+    public void printNumbers() {
         assertEquals(0, Graphic.printNumbers("1234"));
         assertEquals(1, Graphic.printNumbers("7.5,56"));
     }

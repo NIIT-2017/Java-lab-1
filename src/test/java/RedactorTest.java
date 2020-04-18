@@ -1,11 +1,14 @@
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-class RedactorTest {
+public class RedactorTest {
 
     @Test
-    void collapseStr() {
+    public void collapseStr() {
         assertEquals("1,2,4-7", Redactor.CollapseStr("1,2,4,5,6,7"));
         assertEquals("1-4,10,12-15,20", Redactor.CollapseStr("1,2,3,4,10,12,13,14,15,20"));
         assertEquals("1,2,4-7,18-21", Redactor.CollapseStr("1,2,4,5,6,7,18,19,20,21"));

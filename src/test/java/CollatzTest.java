@@ -1,21 +1,14 @@
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-class CollatzTest {
-
-//    @Test
-//    void nextItem() {
-//        assertEquals(10, Collatz.nextItem(3));
-//    }
-
-//    @Test
-//    void howLongSequence() {
-//        assertEquals(8, Collatz.howLongSequence(3));
-//    }
+public class CollatzTest {
 
     @Test
-    void findLongestSequence() {
+    public void findLongestSequence() {
         Collatz col = new Collatz();
         col.findLongestSequence(1000000);
         assertEquals(525, col.getLongest());
