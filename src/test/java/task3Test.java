@@ -1,11 +1,11 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class task3Test {
+public class task3Test {
 
-    @org.junit.jupiter.api.Test
-    void sequence() {
+    @Test
+    public void sequence() {
         assertEquals("3,56,57,58,59,60,12,2,3,12,13,14,15", task3.sequence("3,56-60,12,2,3,12-15"));
         assertEquals("-1,0,1,89,5,6,7", task3.sequence("-1-1,89,5-7"));
         assertEquals("-4,-3,-2,-1,0,1,2,3,4,5", task3.sequence("-4--1,0,1,2,3,4,5"));

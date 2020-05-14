@@ -1,9 +1,11 @@
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-class task1Test {
+import static org.junit.Assert.*;
 
-    @org.junit.jupiter.api.Test
-    void testCollatz() {
+public class task1Test {
+
+    @Test
+    public void collatz() {
         assertEquals(1, task1.collatz(1));
         assertEquals(525, task1.collatz(837799));
         assertEquals(21, task1.collatz(19));
@@ -11,8 +13,8 @@ class task1Test {
         assertEquals(179, task1.collatz(871));
     }
 
-    @org.junit.jupiter.api.Test
-    void testMaxCollatz() {
+    @Test
+    public void maxCollatz() {
         assertEquals(837799, task1.maxCollatz(1,1000000));
     }
 }

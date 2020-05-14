@@ -1,12 +1,13 @@
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-class circleTest {
+import static org.junit.Assert.*;
 
-    @org.junit.jupiter.api.Test
-    void getRadius() {
+public class circleTest {
+
+    @Test
+    public void getRadius() {
         circle testCircle = new circle();
         testCircle.setFerence(30);
-        assertEquals(4.7746482927568605, testCircle.getRadius());
-
+        assertEquals(4.7746482927568605, testCircle.getRadius(), 0.1);
     }
 }
