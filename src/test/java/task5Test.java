@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class task5Test {
 
     @Test
-    void numberDrawing() {
-        assertEquals("13579","    *    ***    *****  *****  **** ",task5.numberDrawing("13579",0));
+    void numberDrawing() {  
+        assertEquals("**** ", task5.enteringNumbers("5", 3));    }
     }
 }
