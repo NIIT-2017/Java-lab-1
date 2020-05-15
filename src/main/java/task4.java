@@ -45,6 +45,7 @@ public class task4 {
         return sb.toString();
     }
     public static void main(String[] args){
-        System.out.println(svertka(args[0]));
+        String str = "1,2,3,4,5"; 
+        System.out.println(svertka(str)); 
     }
 }
