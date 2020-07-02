@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.*;
 
 public class number_symbol_test {
     @Test
